@@ -478,6 +478,6 @@ class AppleNotification implements OSNotificationServiceInterface, EventListener
             fclose($stream);
         }
 
-        $this->apnStreams = [];
+        $this->apnStreams = array();
     }
 }
